@@ -155,6 +155,7 @@ span {
   height: 85%;
   width: 85%;
   background-color: black;
+  opacity: 0.2;
   /* position: relative; */
 }
 
