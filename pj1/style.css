@@ -1,0 +1,470 @@
+* {
+  font-family: "poppins", sans-serif;
+  /* font-weight: bold; */
+}
+
+.container {
+  /* border: dashed; */
+  /* border-color: palevioletred; */
+  height: 620px;
+}
+
+.page1 {
+  /* border: dashed; */
+  /* border-color: darkblue; */
+  height: 615px;
+  /* margin: 5px 5px 5px 0px; */
+}
+
+.menu {
+  /* border: dashed; */
+  /* border-color: green; */
+  height: 15%;
+  /* margin: 10px 10px 10px 0px; */
+  width: 99%;
+}
+
+.mlogo {
+  /* border: dashed; */
+  /* border-color: violet; */
+  height: 80%;
+  margin: 5px 5px 5px 50px;
+  width: 15%;
+  float: left;
+  background-image: url(images/logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.mvar {
+  /* border: dashed; */
+  /* border-color: palegreen; */
+  height: 80%;
+  margin: 5px 5px 5px 5px;
+  width: 57%;
+  float: right;
+  /* font-weight: bold; */
+}
+
+.bnr {
+  /* border: dashed; */
+  /* border-color: orange; */
+  height: 83%;
+  margin: 5px 5px 5px 0px;
+}
+
+.bnrtxt {
+  /* margin: auto; */
+  height: 60%;
+  width: 80%;
+  margin-top: 25%;
+  margin-left: 13%;
+  color: white;
+}
+
+span {
+  font-size: 50px;
+}
+
+.button {
+  border: 1px solid white;
+  width: 23%;
+  padding: 9px;
+}
+
+.button:hover {
+  background-color: white;
+  color: black;
+}
+
+.bnrshop {
+  /* border: dashed; */
+  /* border-color: darkgreen; */
+  height: 93%;
+  margin: 15px 0px 0px 0px;
+  width: 49%;
+  float: left;
+  background-image: url(images/left-banner-image.jpg);
+  background-size: 100%;
+}
+
+.bnrvar {
+  /* border: dashed; */
+  /* border-color: indigo; */
+  height: 93%;
+  margin: 15px 0px 0px 0px;
+  width: 49%;
+  float: right;
+}
+
+.bnrctg1,
+.bnrctg3 {
+  /* border: dashed; */
+  /* border-color: darkgreen; */
+  height: 48%;
+  /* margin: 10px 5px 5px 15px; */
+  width: 48%;
+  float: left;
+}
+
+.bnrctg2,
+.bnrctg4 {
+  /* border: dashed; */
+  /* border-color: darkgreen; */
+  height: 48%;
+  /* margin: 10px 5px 5px 15px; */
+  width: 48%;
+  float: right;
+}
+
+.bnrctg1 {
+  background-image: url(images/baner-right-image-01.jpg);
+  background-size: 100%;
+}
+
+.bnrctg2 {
+  background-image: url(images/baner-right-image-02.jpg);
+  background-size: 100%;
+}
+
+.bnrctg3 {
+  background-image: url(images/baner-right-image-03.jpg);
+  background-size: 100%;
+  margin-top: 20px;
+}
+
+.bnrctg4 {
+  background-image: url(images/baner-right-image-04.jpg);
+  background-size: 100%;
+  margin-top: 20px;
+}
+
+.text {
+  /* border: dotted purple; */
+  height: 90%;
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: 5%;
+  color: azure;
+  font-weight: bold;
+  /* position: relative; */
+}
+
+.text:hover {
+  /* border: dashed black; */
+  height: 85%;
+  width: 85%;
+  background-color: black;
+  /* position: relative; */
+}
+
+/* .box {
+  position: relative;
+  border-color: azure;
+} */
+
+a {
+  text-decoration: none;
+}
+
+li:hover {
+  opacity: 0.5;
+}
+
+ul li a {
+  padding-top: 20px;
+  padding-right: 40px;
+  color: black;
+  opacity: 0.9;
+}
+
+li {
+  float: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* --------------------------------------     END OG PAGE ONE    ------------------------------------------ */
+
+.page2 {
+  /* border: dashed; */
+  /* border-color: darkblue; */
+  height: 615px;
+  margin: 5px 5px 5px 0px;
+}
+
+.men,
+.women,
+.kid {
+  /* border: dashed; */
+  /* border-color: darkblue; */
+  height: 98%;
+  width: 90%;
+  margin: auto;
+}
+
+.mmenu,
+.wmenu,
+.kmenu {
+  /* border: dashed; */
+  /* border-color: red; */
+  height: 15%;
+}
+
+.mdisp {
+  /* border: dashed; */
+  /* border-color: gold; */
+  height: 83%;
+}
+
+.mdisp1 {
+  float: left;
+  /* border: dotted; */
+  /* background-color: royalblue; */
+  height: 98%;
+  width: 30%;
+}
+
+.mdisp2 {
+  float: left;
+  /* border: dotted; */
+  /* background-color: royalblue; */
+  height: 98%;
+  width: 30%;
+  margin-left: 3%;
+}
+.mdisp3 {
+  float: left;
+  /* border: dotted; */
+  /* background-color: royalblue; */
+  height: 98%;
+  width: 30%;
+  margin-left: 3%;
+}
+
+.im1,
+.im2,
+.im3 {
+  /* border: dashed; */
+  height: 75%;
+}
+
+.pr,
+.wpr,
+.kpr {
+  /* border: dashed; */
+  height: 22%;
+}
+
+.strong {
+  font-size: 25px;
+}
+
+em {
+  opacity: 0.6;
+}
+
+.im1 {
+  background-image: url(images/men-01.jpg);
+}
+.im2 {
+  background-image: url(images/men-02.jpg);
+}
+.im3 {
+  background-image: url(images/men-03.jpg);
+}
+
+/*----------------------------------------  end of page 2  --------------------------------------------------*/
+.page3 {
+  /* border: dashed; */
+  /* border-color: darkblue; */
+  height: 615px;
+  margin: 5px 5px 5px 0px;
+}
+
+.wim1,
+.wim2,
+.wim3 {
+  /* border: dashed; */
+  height: 75%;
+}
+.wim1 {
+  background-image: url(images/women-01.jpg);
+}
+.wim2 {
+  background-image: url(images/women-02.jpg);
+}
+.wim3 {
+  background-image: url(images/women-03.jpg);
+}
+
+/* --------------------------------   END OF PAGE 3  ----------------------------------------------------*/
+.page4 {
+  /* border: dashed; */
+  /* border-color: darkblue; */
+  height: 615px;
+  margin: 5px 5px 5px 0px;
+}
+
+.kim1,
+.kim2,
+.kim3 {
+  order: dashed;
+  height: 75%;
+}
+
+.kim1 {
+  background-image: url(images/kid-01.jpg);
+}
+.kim2 {
+  background-image: url(images/kid-02.jpg);
+}
+.kim3 {
+  background-image: url(images/kid-03.jpg);
+}
+
+/* ------------------------------------- END OF PAGE 4  -------------------------------------------*/
+
+/* 
+.page5 {
+  border: dashed;
+  border-color: darkblue;
+  height: 615px;
+  margin: 5px 5px 5px 0px;
+}
+
+.exp {
+  border: dashed;
+  border-color: darkblue;
+  height: 98%;
+  width: 90%;
+  margin: auto;
+}
+
+.expleft {
+  border: dashed;
+  width: 49%;
+  height: 98%;
+  float: left;
+}
+.expright {
+  border: dashed;
+  width: 49%;
+  height: 98%;
+  float: right;
+}
+
+.b1,
+.b2,
+.b3,
+.b4 {
+  border: dashed;
+  width: 48%;
+  height: 45%;
+  margin-top: 2%;
+  float: left;
+}
+
+.b2 {
+  margin-top: 2%;
+  float: right;
+  background-image: url(images/explore-image-01.jpg);
+}
+
+.b3 {
+  margin-top: 2%;
+  float: left;
+  background-image: url(images/explore-image-02.jpg);
+}
+
+.b4 {
+  margin-top: 2%;
+  float: right;
+} */
+
+/* -----------------------------------------  Start of media query  --------------------------------------- */
+
+@media only screen and (width <=768px) {
+  .page1 {
+    height: 3100px;
+  }
+  .menu {
+    height: 1%;
+  }
+  .bnrvar {
+    width: 100%;
+  }
+  .bnr {
+    margin-top: 7%;
+  }
+  .bnrtxt {
+    width: 80%;
+    /* border: dashed; */
+    height: 80%;
+    margin-top: 100px;
+    margin-left: 15%px;
+    /* padding: 10%; */
+  }
+
+  .bnrshop {
+    height: 20%;
+    margin: 5% 0px 0px 0px;
+    width: 98%;
+    padding: 10px;
+    float: none;
+    /* background-image: url(images/left-banner-image.jpg); */
+    /* background-size: 100%; */
+  }
+  .bnrvar {
+    float: none;
+    height: 80%;
+  }
+  .bnrctg1,
+  .bnrctg2,
+  .bnrctg3,
+  .bnrctg4 {
+    float: none;
+    height: 28%;
+    width: 100%;
+  }
+  .mlogo {
+    width: 25%;
+    height: 100%;
+    /* overflow: hidden; */
+    background-image: cover;
+  }
+  ul li a {
+    padding-top: 0px;
+    padding-right: 4px;
+    color: black;
+    opacity: 0.9;
+    float: left;
+  }
+
+  .page2 {
+    /* border: dashed; */
+    /* border-color: darkblue; */
+    height: 615px;
+    margin: 5px 5px 5px 0px;
+  }
+  .mdisp1,
+  .mdisp2 {
+    width: 45%;
+  }
+  .mdisp1 {
+    float: left;
+  }
+  .mdisp2 {
+    float: right;
+  }
+  .mdisp3 {
+    display: none;
+  }
+}
+
+/* ---------------------------------------  start of 425 px  -------------------------------------------------- */
+
+@media only screen and (width <=425px) {
+}
